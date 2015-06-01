@@ -121,7 +121,7 @@
          Point 1:            (0, value[1]):             lux <= 0
          Point 2:     (level[1], value[2]):  0        < lux <= level[1]
          Point 3:     (level[2], value[3]):  level[2] < lux <= level[3]
-         ...
+ ...
          Point N+1: (level[N], value[N+1]):  level[N] < lux
 
          The control points must be strictly increasing.  Each control point
@@ -153,6 +153,9 @@
         <item>1000</item>
         <item>1022</item>
     </integer-array>
+<integer name="config_screenBrightnessSettingMinimum">1</integer>
+<integer name="config_screenBrightnessDim">1</integer>
+<integer name="config_screenBrightnessSettingMaximum">255</integer>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater
